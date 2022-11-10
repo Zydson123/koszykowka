@@ -3,7 +3,7 @@ package com.example.apka123;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class PunktyViewModel extends ViewModel{
+public class Team2Points extends ViewModel {
     private MutableLiveData<Integer> points = new MutableLiveData<>();
 
     public MutableLiveData<Integer> getPoints() {
@@ -13,6 +13,7 @@ public class PunktyViewModel extends ViewModel{
         }
         return points;
     }
+
     public void setPoints(int p) {
         this.points.setValue(p);
     }
@@ -23,4 +24,3 @@ public class PunktyViewModel extends ViewModel{
         }
     }
 }
-
